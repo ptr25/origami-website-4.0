@@ -1,0 +1,35 @@
+
+h1{
+    color:palevioletred; 
+    border:solid;
+    text-align: center;
+}
+.steps{
+    color:purple;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: pink;
+    position: relative;
+}
+.steps h3{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+body {
+    
+    margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 2px solid black;
+  }
+.steps:hover h3{
+    opacity:1;
+}
+.steps:hover img{
+    transform:scale(1.2)
+}
